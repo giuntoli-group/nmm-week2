@@ -12,7 +12,7 @@ Copy the file ‘Si.scf.in’, the pseudopotential file, and the submission scri
 Once all four calculations are finished, first control that they terminated correctly and then type 
 grep ‘!    total energy’ Si.scf.out to check the values of total energy for each lattice constant. Write these values to a file, including the one calculated initially with the lattice constant of 10.26 a.u. 
 
-Use your favorite tool (for example, python, Gnuplot, or MS Excel) to plot the lattice constant vs the total energy curve. Write down the value of the lattice constant for which you see the minimum. Does the optimized lattice constant agree with the experimental value? Compare with the literature. 
+Use your favorite tool (for example, python, Gnuplot, or if you really want to, MS Excel) to plot the lattice constant vs the total energy curve. Write down the value of the lattice constant for which you see the minimum. Does the optimized lattice constant agree with the experimental value? Compare with the literature. 
 
 ## Assignment 2
 
