@@ -3,7 +3,7 @@ For this and following tutorials: some relevant scripts will be in these reposit
 
 ## Assignment 1
 
-To be written.
+The topic of this session will be to optimize the lattice parameters and calculate band structures of bulk materials. You will need to use XCrysDen or the online tool that you tried last week to visualize your structures. 
 
 ### Instructions
 
