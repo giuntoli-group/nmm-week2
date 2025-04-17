@@ -31,6 +31,6 @@ plot 'Si.dos.dat' using ($1-<Fermi_energy>):2 with lines
 
 Compare the result with the plot below. Does it agree? Based on the calculated DOS, would you classify crystalline Si are an insulator, semiconductor or a metal?
 
-![Test](/main/images/dos.png)
+![Test](/images/dos.png)
 
 
