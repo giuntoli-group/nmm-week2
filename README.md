@@ -33,4 +33,29 @@ Compare the result with the plot below. Does it agree? Based on the calculated D
 
 ![Test](/images/dos.png)
 
+## Assignment 3
+
+Finally, we will calculate the electronic structure of Si along the high symmetry lines in the Brillouin zone.
+
+### Instructions
+
+3a. Let us first visualize the Brillouin zone and the high-symmetry points. To this aim, type ‘xcrysden’ and open again the file ‘Si.scf.in’. Then, go to Tools and choose k-path Selection. Explore the shape of the Brillouin zone. Does it look as you expected?
+Alternatively, you can use an online tool at https://tools.materialscloud.org/seekpath/, this time the left-hand panel. The high-symmetry points in the BZ of Si will be already displayed. 
+
+Now, create a new directory and call it Bands. Copy to it the entire directory Si.save by typing ‘cp -r Si.save Bands’. 
+Copy the file ‘Si.bands.in’ and ‘Si.pp.in’ into the directory Bands. 
+Open the file Si.bands.in and check the last lines describing the coordinates of high-symmetry points. Are you able to identify them in the visualized Brillouin zone?
+
+Run the calculations for bands, using the script 'bands.qsub'. 
+
+Once the calculation is terminated correctly – check the job status and the end of the ‘Si.bands.out’ file – run the postprocessing calculation with the input file 'Si.pp.in'. Use the script 'bands.pp.qsub'. 
+
+When the calculation is done, you will see the band structure files in various formats. The quickest way to visualize the band structure is to use ‘Si.dat.gnu’. You can simply call Gnuplot and type: 
+
+plot 'Si.dat.gnu' using 1:($2-<Fermi_energy>) with lines
+
+Alternatively, you can write your own python script to get a nicer figure. You should see the spectrum similar to the one below. Does it agree with the literature?
+
+![Test](/images/bands.png)
+
 
