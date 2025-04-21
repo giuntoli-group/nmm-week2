@@ -54,7 +54,7 @@ When the calculation is done, you will see the band structure files in various f
 
 plot 'Si.dat.gnu' using 1:($2-<Fermi_energy>) with lines
 
-Alternatively, you can write your own python script to get a nicer figure. You should see the spectrum similar to the one below. Does it agree with the literature?
+Alternatively, you can write your own python script to get a nicer figure. You should see the occupied part of the spectrum similar to the one below. Does it agree with the literature?
 
 ![Test](/images/bands.png)
 
