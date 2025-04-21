@@ -80,4 +80,8 @@ C      0.000 0.000 1.363
 
 C      0.500 0.288 1.363
 
+Note: Graphite is a van der Waals material, so using a semi-empirical van der Waals correction (DFT-D2) is suggested for geometry optimization. 
+
+Calculate your band structure along M-G-K-M direction. Does it agree with the literature?
+
 
