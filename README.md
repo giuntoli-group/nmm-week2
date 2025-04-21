@@ -60,5 +60,18 @@ Alternatively, you can write your own python script to get a nicer figure. You s
 
 ## Assignment 4
 
-Repeat the exercises 1-3 to analyze the properties of graphite - a van der Waals material consisting of graphene layers. You can start with the experimental lattice constants a = A and c = C, and use the following coordinates of carbon atoms:
+Repeat the exercises 1-3 to analyze the properties of graphite - a bulk van der Waals material consisting of graphene layers. The following parameters might be useful for constructing your Quantum Espresso file:
+
+&system
+    ibrav           = 4 
+    celldm(1)       = 4.641
+    celldm(3)       = 2.726
+    nat             = 4 
+    ntyp            = 1
+
+ATOMIC_POSITIONS {alat}
+C      0.000 0.000 0.000
+C      0.000 0.577 0.000
+C      0.000 0.000 1.363
+C      0.500 0.288 1.363
 
