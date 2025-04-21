@@ -69,15 +69,13 @@ Repeat the exercises 1-3 to analyze the properties of graphite - a bulk van der 
     celldm(3)= 2.726
 ```
 
+```bash
 ATOMIC_POSITIONS {alat}
-
 C      0.000 0.000 0.000
-
 C      0.000 0.577 0.000
-
 C      0.000 0.000 1.363
-
 C      0.500 0.288 1.363
+```
 
 Note: Graphite is a van der Waals material, so using at least a semi-empirical van der Waals correction (DFT-D2) is suggested for the structure optimization. 
 
