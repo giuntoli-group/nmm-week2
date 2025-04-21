@@ -46,9 +46,9 @@ Now, create a new directory and call it Bands. Copy to it the entire directory S
 Copy the file ‘Si.bands.in’ and ‘Si.pp.in’ into the directory Bands. 
 Open the file Si.bands.in and check the last lines describing the coordinates of high-symmetry points. Are you able to identify them in the visualized Brillouin zone?
 
-Run the calculations for bands, using the script 'bands.qsub'. 
+Run the calculations for bands, using the script 'bands.sh'. 
 
-Once the calculation is terminated correctly – check the job status and the end of the ‘Si.bands.out’ file – run the postprocessing calculation with the input file 'Si.pp.in'. Use the script 'bands.pp.qsub'. 
+Once the calculation is terminated correctly – check the job status and the end of the ‘Si.bands.out’ file – run the postprocessing calculation with the input file 'Si.pp.in'. Use the script 'bands.pp.sh'. 
 
 When the calculation is done, you will see the band structure files in various formats. The quickest way to visualize the band structure is to use ‘Si.dat.gnu’. You can simply call Gnuplot and type: 
 
