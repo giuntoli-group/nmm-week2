@@ -62,8 +62,7 @@ Alternatively, you can write your own python script to get a nicer figure. You s
 
 Repeat the exercises 1-3 to analyze the properties of graphite - a bulk van der Waals material consisting of graphene layers. The following parameters might be useful for constructing your Quantum Espresso file:
 
-&system
-
+ &system
     ibrav  = 4
 
     celldm(1)= 4.641 
