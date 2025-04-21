@@ -58,4 +58,7 @@ Alternatively, you can write your own python script to get a nicer figure. You s
 
 ![Test](/images/bands.png)
 
+## Assignment 4
+
+Repeat the exercises 1-3 to analyze the properties of graphite - a van der Waals material consisting of graphene layers. You can start with the experimental lattice constants a = A and c = C, and use the following coordinates of carbon atoms:
 
