@@ -65,7 +65,6 @@ Repeat the exercises 1-3 to analyze the properties of graphite - a bulk van der 
 &system
 
     ibrav           = 4 
-    
     celldm(1)       = 4.641
     
     celldm(3)       = 2.726
