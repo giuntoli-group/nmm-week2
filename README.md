@@ -5,11 +5,11 @@ The topic of this session will be to optimize the lattice parameters and calcula
 
 ## Assignment 1
 
-We will start with the DFT calculation of bulk Si. This exercise will consist of the lattice constant optimization and the calculations of the density of states (DOS). Last week, you run the file 'Si.scf.in', and you got familiar with the input parameters and output files. Now, we will continue with the same input file and will set up the calculations to optimize the lattice constant of Si. 
+We will start with the DFT calculation of bulk Si. This exercise will consist of the lattice constant optimization and the calculations of the density of states (DOS). Last week, you ran the file 'Si.scf.in', and you got familiar with the input parameters and output files. Now, we will continue with the same input file and set up the calculations to optimize the lattice constant of Si. 
 
 ### Instructions
 
-1a. First, input files with different lattice constants should be prepared. If you are familiar with bash or python scripting, you can easily automatize the file preparation and running. Otherwise, create four empty directories called ‘Si_<lattice_constant>’ using the following set of lattice constants {9.8, 10.0, 10.4, 10.6}. Note that the values in parentheses are expressed in atomic units in accordance with the requirements of QE. Convert them to angstrom (for yourself) to make sure that you know what you are doing. 
+1a. First, input files with different lattice constants should be prepared. If you are familiar with bash or python scripting, you can easily automate the file preparation and running. Otherwise, create four empty directories called ‘Si_<lattice_constant>’ using the following set of lattice constants {9.8, 10.0, 10.4, 10.6}. Note that the values in parentheses are expressed in atomic units in accordance with the requirements of QE. Convert them to angstroms (for yourself) to make sure that you know what you are doing. 
 
 Copy the file ‘Si.scf.in’, the pseudopotential file, and the submission script to each directory. Open each of these files using an editor and change the value of the parameter celldm(1) to a corresponding value of lattice constant. Run the job script in each directory.
 
