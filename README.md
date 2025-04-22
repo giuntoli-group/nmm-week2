@@ -29,7 +29,7 @@ Now, we will perform density of states (DOS) calculations for the bulk silicon.
 2b. The result will be written in a file ‘Si.dos.dat’ containing three columns and the value of Fermi energy at the beginning of the file. Plot energy vs dos(E) using your favorite plotting tool, for example, Gnuplot, Python, or if you really want, in Excel. Don’t forget to shift the Fermi energy printed at the beginning of the file. For example, type ‘module load gnuplot’, then ‘gnuplot’ and then use the command:
 plot 'Si.dos.dat' using ($1-<Fermi_energy>):2 with lines
 
-Compare the result with the plot below. Does it agree? Based on the calculated DOS, would you classify crystalline Si are an insulator, semiconductor or a metal?
+Compare the result with the plot below. Does it agree? Based on the calculated DOS, would you classify crystalline Si as an insulator, a semiconductor, or a metal?
 
 ![Test](/images/dos.png)
 
